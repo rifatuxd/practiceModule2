@@ -1,0 +1,37 @@
+  //Student Marks
+  
+ int marks = 50;
+  
+  if (marks <= 100 && marks >= 80) {
+    print ('A+');
+  }
+  
+  else if (marks <= 79 && marks >= 70) {
+    print ('A');
+  }
+  
+  else if (marks <= 69 && marks >= 60) {
+    print ('A-');
+  }
+  
+  else if (marks <= 59 && marks >= 50) {
+    print ('B');
+  }
+  
+  else if (marks <= 49 && marks >= 40) {
+    print ('C');
+  }
+  
+  else if (marks <= 39 && marks >= 33) {
+    print ('D');
+  }
+  
+  else if (marks <= 32 && marks >= 0) {
+    print ('F');
+  }
+  
+  else {
+    print ('Invalid');
+  }
+  
+}
